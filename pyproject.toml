@@ -10,5 +10,6 @@ dependencies = [
     "mlcroissant>=1.0.17",
     "nltk>=3.9.1",
     "numpy>=2.3.1",
+    "pandas>=2.3.0",
     "scikit-learn>=1.7.0",
 ]

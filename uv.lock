@@ -794,6 +794,7 @@ dependencies = [
     { name = "mlcroissant" },
     { name = "nltk" },
     { name = "numpy" },
+    { name = "pandas" },
     { name = "scikit-learn" },
 ]
 
@@ -804,6 +805,7 @@ requires-dist = [
     { name = "mlcroissant", specifier = ">=1.0.17" },
     { name = "nltk", specifier = ">=3.9.1" },
     { name = "numpy", specifier = ">=2.3.1" },
+    { name = "pandas", specifier = ">=2.3.0" },
     { name = "scikit-learn", specifier = ">=1.7.0" },
 ]
 
