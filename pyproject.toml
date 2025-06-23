@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "jupyter>=1.1.1",
     "loguru>=0.7.3",
+    "mlcroissant>=1.0.17",
     "nltk>=3.9.1",
     "numpy>=2.3.1",
     "scikit-learn>=1.7.0",
