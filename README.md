@@ -13,3 +13,20 @@ This notebook is an attempt at building an n-gram profile based language detecto
   url={https://api.semanticscholar.org/CorpusID:170740}
 }
 ```
+
+## Env Setup
+
+Make sure to have `uv` installed before you proceed.
+
+```bash
+uv sync
+source .venv/bin/activate
+```
+
+To run the example notebook,
+
+```bash
+jupyter notebook
+```
+
+
