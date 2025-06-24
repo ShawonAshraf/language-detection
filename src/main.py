@@ -76,6 +76,7 @@ def main(profile_size: int = 200) -> None:
     classifier.fit(train_texts, train_languages)
 
     # evaluate classifier
+    logger.info("Evaluating classifier on test set")
     predictions = infer(classifier, test_texts)
     _, _, _, _, report = evaluate(predictions, test_languages)
 
