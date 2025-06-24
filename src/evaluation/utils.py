@@ -45,7 +45,7 @@ def explore_profile_size(
     test_texts: list[str],
     test_languages: list[str],
     train_texts: list[str],
-    train_labels: list[str],
+    train_languages: list[str],
     profile_sizes: list[int] = profile_sizes,
     distance_fn: Callable = calculate_distance,
 ) -> None:
