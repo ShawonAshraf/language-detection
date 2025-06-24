@@ -29,4 +29,10 @@ To run the example notebook,
 jupyter notebook
 ```
 
+Otherwise you can run the cli
 
+```bash
+uv run src/main.py PROFILE_SIZE
+# example
+uv run src/main.py 200
+```
